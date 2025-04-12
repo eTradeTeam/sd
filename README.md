@@ -29,6 +29,7 @@ For details on specific **strategy categories** (e.g., Trend Following, Mean Rev
  - [Strategy Development Process](process/README.md): The Strategy Factory Process & our collaborative development process
  - [Resources](resources/README.md): Links to resources such as spreadsheets, strategy ideas, etc
  - [Signals](signals/README.md): Collated list of Signals
+ - [Strategy Types](strategy_categories/README.md)
  - [Team](team/README.md): How do we work as a team.  How can you best utilize your skills.
  - [Tools](tools/README.md): Tools use along with documentation or instructions
  - [Generative AI](genai/README.md): Guidance, prompts, 

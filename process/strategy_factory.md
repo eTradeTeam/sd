@@ -5,6 +5,13 @@ Kevin Davy's Strategy Factory approach is a systematic, step-by-step procedure f
 Successful algorithmic trading strategies emerge from a well-defined, step-by-step process, not from one-off “lightbulb” ideas.
    - This process is designed to repeatedly generate and test strategies, akin to a “factory” pipeline.
 
+---
+
+![Strategy Factory](../imgs/strategy-factory-steps.png)
+
+
+---
+
 The following is an outline of Kevin's Strategy Factory approach.
 
 ## 1 Goals and Objectives
