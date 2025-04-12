@@ -22,18 +22,7 @@ My question is, can you help me define the best prompts to work through this pro
 ---
 ---
 
-
-
-
-
-
-
-
-
----
----
-
-## 0. Provide a Role / Persona
+## 1. Provide a Role / Persona
 
 ```
 You are a world-class quantitative algorithmic trading strategist. Your objective is to design, test, and deploy highly profitable, robust trading strategies for a retail trader with a $100K account. You leverage deep quantitative methods, but your solutions must be implementable on platforms such as TradeStation, MultiCharts, or NinjaTrader, using commonly available data (e.g., OHLC, volume, tick data). Prioritize asymmetry in risk/reward, robustness across market conditions, and minimal correlation to broader market benchmarks.
@@ -48,18 +37,7 @@ Do not provide purely theoretical or high-level generalities—ensure the detail
 ---
 ---
 
-
-
-
-
-
-
-
-
----
----
-
-## 1. **Strategy Category Exploration**
+## 2. **Strategy Category Exploration**
 **Short prompt**
 ```
 Act as a quant algorithmic trading expert. List all the major strategy categories (e.g., trend following, breakout) used by successful retail traders. For each, briefly define the core concept and give examples of common indicators or entry/exit techniques used.
@@ -105,21 +83,11 @@ Structure your answer with clear headers, bullet points, and short paragraphs. E
 ---
 ---
 
-
-
-
-
-
-
-
-
----
----
-
-## 2. **Subcategory and Indicator Mapping**
+### **Subcategory Mapping**
 **Short prompt**
 ```
-For the [trend following] strategy category, identify all meaningful subcategories (e.g., moving average crossover, ADX trend confirmation, Donchian channel). For each subcategory, list indicators that are typically used and explain their role.
+Are there subcategories of indicators in [trend following] strategies.  In other words, are there indicator subcategories that can be used in conjunction
+
 ```
 
 **Long prompt**
@@ -143,42 +111,26 @@ For the "Machine Learning-Driven" category for a retail trader, provide a detail
     Format the output with clear headers and bullet points.
 ```
 
-
 ---
 ---
 
+### List Indicators
+```
+Looking back to the subcategories, can you provide an exhaustive list of "Range & Volatility Analysis" indicators for [Trend Following] strategies.  Focus on those strategies that are appropriate for the retail trader.
+```
 
-
-
-
-
-
-
-
----
----
+### csv file
+```
+Review the "Range & Volatility Analysis" indicators.  
+Can you provide an results in csv file format with one row for each indicator and columns for subcategory, Indicator name, purpose, why it works, implementation and pseudocode for the indicators
+```
 
 ## 3. **Indicator Usefulness by Style & Timeframe**
 **Short prompt**
 ```
 Create a matrix showing which subcategories and indicators work best for different trading styles (scalping, intraday, swing) and timeframes (tick, 1m, 5m, 15m, 1h, 4h, daily). Indicate which are historically most profitable for each style.
-```
-
-
 
 ```
-```
-
-
----
----
-
-
-
-
-
-
-
 
 
 ---
@@ -191,22 +143,6 @@ Design a profitable trading strategy by combining elements from different subcat
 ```
 
 
-
-```
-```
-
-
----
----
-
-
-
-
-
-
-
-
-
 ---
 ---
 
@@ -215,21 +151,6 @@ Design a profitable trading strategy by combining elements from different subcat
 ```
 Give me a modular strategy template where I can plug in different indicators from various subcategories to experiment with new combinations. Include toggles for entry/exit rules, timeframe, and trade management logic.
 ```
-
-
-```
-```
-
-
----
----
-
-
-
-
-
-
-
 
 
 ---
@@ -241,26 +162,48 @@ Give me a modular strategy template where I can plug in different indicators fro
 Here is a rough strategy idea: [Insert your concept]. Analyze its strengths and weaknesses. What indicators or filters could improve it? How would you adapt it for intraday vs swing trading?
 ```
 
-
+## Strategy Framework
+**Short prompt**
 ```
+Can you outline an ML-Driven Strategy Framework
 ```
 
+**Long Prompt**
+```
+Act as a world-class quantitative algorithmic trading strategist. Your goal is to design, test, and deploy highly profitable algorithmic strategies using rigorous statistical methods. Prioritize strategies with asymmetric risk/reward profiles, robustness across market regimes, and minimal correlation to existing portfolios. Assume access to high-quality historical data (tick, OHLC, volume) and low-latency execution infrastructure. Focus on actionable, institution-grade logic—no theoretical fluff.
 
----
----
+Your customer is a retail trader with a $100K account who will use Tradestation, Multicharts or Ninjatrader to implement, test and execute your strategies.  
 
-
-
-
-
-
-
-
-
----
+Please provide a strategy framework that includes sections for entry signal, scaling in, scaling out, exits, and money management.  Please consider other factors not mentioned here.  I am looking for the breadth of elements for the strategy framework rather than detail on each component.  Group components into sections if that develops a better framework.
+--or--
+Provide pseudocode for a trading strategy framework. what are important components of a framework.
+```
 ---
 
+## Money Management
+**Short prompt**
+```
+What type of Money Management should be used with "Machine Learning-Driven" strategies.
+```
 
+**Long Prompt**
+```
+Act as a world-class quantitative algorithmic trading strategist. Your goal is to design, test, and deploy highly profitable algorithmic strategies using rigorous statistical methods. Prioritize strategies with asymmetric risk/reward profiles, robustness across market regimes, and minimal correlation to existing portfolios. Assume access to high-quality historical data (tick, OHLC, volume) and low-latency execution infrastructure. Focus on actionable, institution-grade logic—no theoretical fluff.
+
+Your customer is a retail trader with a $100K account who will use Tradestation, Multicharts or Ninjatrader to implement, test and execute your strategies.  
+
+What is involved in good money management.
+```
+
+**Follow-up Prompt**
+```
+provide pseudocode for a detailed money management in a strategy
+```
+
+---
+
+## Site overview prompt:
+```
 I am setting up a github organization called etradeteam for students of Kevin Davey's Strategy Factory Course.  see the attached project files.
 
 On this site we will collaborate on the development of automated trading strategies.  The efforts of the collaborators will be divided multiple repositories.  These include a repo for each major type/category of strategy.  It also includes repos for the development of a strategy framework, money management.  The main repo is a strategy_development repo.  below is a potential table of contents for this repo which will provide guidance for the strategy development team.
@@ -353,217 +296,7 @@ Strategy_development Team repo TOC
     - a repo for each strategy category
     - a general strategy_framework
     - money_management code
-
-
-
-
-
----
----
----
----
----
-
-
----
----
----
----
----
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
----
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
----
----
----
----
----
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Prompt:
-
----
----
----
----
----
-
-Strategy Categories:
-
-Trend Following
-Mean Reversion
-Momentum
-Breakout
-Machine Learning-Driven
-Market Sentiment
-Volatility Targeting
-Pairs trading
-Seasonality/Calendar Effects
-Scalping
-
-
-Initial query
-
-Act as a world-class quantitative algorithmic trading strategist. Your goal is to design, test, and deploy highly profitable algorithmic strategies using rigorous statistical methods. Prioritize strategies with asymmetric risk/reward profiles, robustness across market regimes, and minimal correlation to existing portfolios. Assume access to high-quality historical data (tick, OHLC, volume) and low-latency execution infrastructure. Focus on actionable, institution-grade logic—no theoretical fluff.
-
-Your customer is a retail trader with a $100K account who will use Tradestation, Multicharts or Ninjatrader to implement, test and execute your strategies.  
-
-In another chat we categorized strategies into the following categories:  Trend Following, Mean Reversion, Momentum, Volatility Targeting, Breakout,  pairs trading, Machine Learning-Driven, Market Sentiment, Seasonality/Calendar Effects, Scalping.
-
-For the "Machine Learning-Driven" category for a retail trader, provide a detailed breakdown:  
-    1. **Core Hypothesis**: Explain the market inefficiency or behavioral bias the category exploits.  
-    2. **Top 10 Indicators**:  
-    - List indicators historically linked to profitability in this category.  
-    - For each, explain why it works (e.g., ‘Bollinger Bands identify overextended prices’).  
-    1. **Market Conditions**: Describe when the category thrives (e.g., high volatility, low volume).  
-    2. **Trading Styles**: Map strategies to scalping, intraday, swing, or position trading.  
-    3. **Timeframe Suitability**: Specify ideal timeframes (e.g., tick or volume bars, 1 min, 5 min, 1hr) and why.
-    4. **Key Risks**: Highlight vulnerabilities (e.g., whipsaws in ranging markets).  
-    5. **Risk Management Tactics**: Suggest stop-loss, position sizing, or hedging rules.  
-    Format the output with clear headers and bullet points.
-
----
-
-Subcategories
-
-Are there subcategories of indicators in "Machine Learning-Driven" strategies.  In other words, are there indicator subcategories that can be used in conjunction
-
----
-
-List of Indicators
-
-
-Looking back to the subcategories, can you provide an exhaustive list of "" for Machine Learning-Driven strategies.  Focus on those strategies that are appropriate for the retail trader.
-
----
-Strategy Framework
-
-Can you outline an ML-Driven Strategy Framework
-
----
-
-Money Management
-
-What type of Money Management should be used with "Machine Learning-Driven" strategies.
-
-
-
----
-
-CSV File
-
-Review the "Range & Volatility Analysis" indicators.  
-Can you provide an results in csv file format with one row for each indicator and columns for subcategory, Indicator name, purpose, why it works, implementation and pseudocode for the indicators
-
+```
 
 ----
 ----
-----
-----
-----
-
-
-
-Act as a world-class quantitative algorithmic trading strategist. Your goal is to design, test, and deploy highly profitable algorithmic strategies using rigorous statistical methods. Prioritize strategies with asymmetric risk/reward profiles, robustness across market regimes, and minimal correlation to existing portfolios. Assume access to high-quality historical data (tick, OHLC, volume) and low-latency execution infrastructure. Focus on actionable, institution-grade logic—no theoretical fluff.
-
-Your customer is a retail trader with a $100K account who will use Tradestation, Multicharts or Ninjatrader to implement, test and execute your strategies.  
-
-Please provide a strategy framework that includes sections for entry signal, scaling in, scaling out, exits, and money management.  Please consider other factors not mentioned here.  I am looking for the breadth of elements for the strategy framework rather than detail on each component.  Group components into sections if that develops a better framework.
-
-
-
-
-----
-----
-----
-Strategy Framework & Money Management
-----
-----
-----
-
-
-Act as a world-class quantitative algorithmic trading strategist. Your goal is to design, test, and deploy highly profitable algorithmic strategies using rigorous statistical methods. Prioritize strategies with asymmetric risk/reward profiles, robustness across market regimes, and minimal correlation to existing portfolios. Assume access to high-quality historical data (tick, OHLC, volume) and low-latency execution infrastructure. Focus on actionable, institution-grade logic—no theoretical fluff.
-
-Your customer is a retail trader with a $100K account who will use Ninjatrader to implement, test and execute your strategies.  
-
---
-Provide pseudocode for a trading strategy framework. what are important components of a framework.
--- or --
-Please provide a strategy framework that includes sections for entry signal, scaling in, scaling out, exits, and money management.  Please consider other factors not mentioned here.  I am looking for the breadth of elements for the strategy framework rather than detail on each component.  Group components into sections if that develops a better framework.
---
-
-Provide additional detail for the strategy framework
-
----
-
-Can you provide the detail in pseudocode?
-
-
-Money Management:
-
-provide pseudocode for a detailed money management in a strategy
-
-
----
-
-provide additional detail on each part of the money management
-
----
-
-Can you provide the detail in pseudocode?
-
