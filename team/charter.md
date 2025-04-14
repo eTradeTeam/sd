@@ -3,6 +3,7 @@
 - [**Strategy Development Main**](../README.md)
   - [Team](README.md)
     - [Team Charter](charter.md)
+    - [Team Colaboration](collaboration.md)
     - [Onboarding Guide](onboarding_guide.md)
     - [Code of Conduct](code_of_conduct.md)
 

@@ -3,6 +3,7 @@
 - [**Strategy Development Main**](../README.md)
   - [Team](README.md)
     - [Team Charter](charter.md)
+    - [Team Colaboration](collaboration.md)
     - [Onboarding Guide](onboarding_guide.md)
     - [Code of Conduct](code_of_conduct.md)
 
@@ -18,5 +19,6 @@ Each team member has the flexibility to work across the entire workflow or to sp
 Take a few minutes to review the following Guidance:
 
  - [Team Charter](charter.md)
+ - [Team Colaboration](collaboration.md)
  - [Code of Conduct](code_of_conduct.md)
  - [Onboarding Guide](onboarding_guide.md)

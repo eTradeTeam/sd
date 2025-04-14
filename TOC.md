@@ -1,8 +1,6 @@
-Below is an **updated table of contents** incorporating your requested changes, including a **genai** subdirectory for using Generative AI in strategy development. This refined structure should keep everything organized as your team continues to expand.
+## Strategy Development Repository – Table of Contents
 
----
-
-## strategy_development Repository – Updated Table of Contents
+<mar>This TOC needs to ba update</mark>
 
 1. **README.md**  
    - **Brief Overview**  
@@ -126,33 +124,6 @@ Below is an **updated table of contents** incorporating your requested changes, 
 
 ---
 
-### Why This Structure Works
-
-- **genai** Subdirectory:  
-  - Centralizes your AI resources, making it clear how the team intends to use generative AI.  
-  - Encourages best practices and consistent approaches for ethically and effectively leveraging AI outputs.
-
-- **Tools** vs **genai**:  
-  - **Tools** is primarily for core software, platforms, coding resources, and communications.  
-  - **genai** is specifically about process, methodology, and case studies that incorporate AI into strategy development.
-
-- **Consistent Naming and Corrections**:  
-  - Files like `incubation.md` and `feasibility_testing.md` have corrected spellings.  
-  - Subdirectory names are lowercased, consistent with typical GitHub conventions.
-
-- **Cross-Linking Potential**:  
-  - Within your `our_process.md` or `rigorous_test.md`, you might reference AI usage found in the `genai` folder, guiding team members to see how AI can assist at each stage.
-
-By adopting this updated ToC, your **strategy_development** repository will be well-organized, with **clear delineation** of responsibilities, processes, and the new generative AI component. This ensures every contributor knows where to find resources, how to add content, and how to properly experiment with AI while maintaining robust trading strategy development practices.
-
-
-
-
-
-
-
-Here's a complete and structured `TOC.md` master Table of Contents file for the `strategy_development` GitHub repository, listing all the available files along with concise descriptions for each.  
-
 ---
 
 # Master Table of Contents
@@ -181,13 +152,7 @@ Here's a complete and structured `TOC.md` master Table of Contents file for the 
 ### Additional Considerations:
 - [**Strategy Considerations & Implementation Feasibility**](strategy_types.md#considerations): Guidance on strategy complexity, recommended skill levels, and implementation on retail platforms.
 
----
-
-This structured master Table of Contents allows easy navigation and understanding of the repository's content, ensuring all members can readily locate the information and files relevant to their trading and development activities.
-
-
-
-
+--
 
 
 

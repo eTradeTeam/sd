@@ -3,6 +3,7 @@
 - [**Strategy Development Main**](../README.md)
   - [Team](README.md)
     - [Team Charter](charter.md)
+    - [Team Colaboration](collaboration.md)
     - [Onboarding Guide](onboarding_guide.md)
     - [Code of Conduct](code_of_conduct.md)
 
@@ -25,7 +26,7 @@ Before joining, please review the following:
 
 ## Step 2: Request Access to Private Repositories
 
-To contribute, you'll need access to our private strategy and tooling repos.
+To contribute, you'll need access to our private strategy and tooling repos.  You should recieve access when you join the team.  However, if you don't have access, then contact the team on Discord.
 
 1. **Create a GitHub account** if you don’t already have one.
 2. **Send your GitHub username** to the team lead or submit a request via [this onboarding issue](https://github.com/etradeteam/strategy_development/issues).
@@ -37,16 +38,17 @@ To contribute, you'll need access to our private strategy and tooling repos.
 
 Each repo contains its own setup instructions. General setup includes:
 
-- Installing **Git** and cloning repos locally
-- Setting up **Python** (or NinjaTrader / MultiCharts / platform of choice)
-- Installing any required libraries (see `requirements.txt` or `README.md`)
+- Install **Github Desktop** and clone repos locally.  This will create a local copy of all the files in development.  See [Github](../github.md) for instructions
+- Install VS Code so that you can edit files and create documentation.
+- Set up Tradestatino / MultiCharts / NinjaTrader / platform of choice)
+- 
 
 Optional:
 - Sign up for [ChatGPT](https://chat.openai.com), Claude, or other GenAI tools to contribute prompts in the `genai` repo.
 
 ---
 
-## Step 4: Introduce Yourself
+## Step 4: Introduce Yourself (Instructions TBD)
 
 Please introduce yourself in the [Introductions Discussion](https://github.com/etradeteam/strategy_development/discussions) and include:
 
