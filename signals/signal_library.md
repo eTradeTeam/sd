@@ -1,10 +1,16 @@
+## Signals TOC
+
+- [**Strategy Development Main**](../README.md)
+  - [Signals](README.md)
+    - [Signal Library](signal_library.md)
+
+---
+
 # Signal Library Concept
 
 **The Team needs to discuss the use of a signal library**.
 
-:arrow_forward: 
-
-<mark>IMPORTANT: Please review and discuss this section for improvements.</mark>
+:arrow_forward: <mark>IMPORTANT: The Signal Library is a concept.  Please review and discuss this section and recommend improvements.</mark>
 
 The signal library is an initial concept.  The benefit, use and configuration of a signal library should be discussed by the team
 

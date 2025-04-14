@@ -1,9 +1,12 @@
-**Links**:
-- Main [Table of Contents](../TOC.md)
-  - [Team Guidance](README.md)
+## Team TOC
+
+- [**Strategy Development Main**](../README.md)
+  - [Team](README.md)
     - [Team Charter](charter.md)
     - [Onboarding Guide](onboarding_guide.md)
     - [Code of Conduct](code_of_conduct.md)
+
+---
 
 # Team Charter
 

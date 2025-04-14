@@ -1,3 +1,20 @@
+## **Table of Contents:**
+
+- [**Strategy Development Main**](../README.md)
+  - [Strategy_Factory Process](./strategy_factory.md)
+  - [**Our Process**](./README.md)
+    - [Idea Generation & Signal Identification](./identify_signals.md)
+    - [Combine Signals Into Strategies](./strategies.md)
+    - [Initial Feasibility Testing](./feasibility_testing.md)
+    - [Rigorous Testing & Validation](./rigorous_test.md)
+    - [Incubation](./incubation.md)
+    - [Strategy Framework Integration](./Strategy_Framework.md)
+    - [Money Management](./Money_Management.md)
+    - [Portfolio Management](./Portfolio_Management.md)
+    - [Strategy_Categories](./strategy_types.md)
+
+---
+
 # Rigorous Testing & Validation
 
 This document details the **advanced testing** methods we use once a strategy has **passed feasibility** and shows potential. In rigorous testing, we check for **robustness** and **resilience** across different market conditions, timeframes, and parameters. We want to ensure the strategy isn’t relying on **lucky data segments** or overly tailored settings that collapse in live trading.
@@ -108,6 +125,8 @@ This document details the **advanced testing** methods we use once a strategy ha
 4. **Other Statistics**  
    - **Sharpe Ratio**, **Sortino Ratio**, **Win Rate**, etc. can provide more context.  
    - Avoid over-reliance on a single metric. Look for a well-rounded performance profile.
+
+- <mark>See</mark> also the section on [**Performance Metrics**](../metrics/README.md)
 
 ---
 

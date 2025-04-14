@@ -1,3 +1,20 @@
+## **Table of Contents:**
+
+- [**Strategy Development Main**](../README.md)
+  - [Strategy_Factory Process](./strategy_factory.md)
+  - [**Our Process**](./README.md)
+    - [Idea Generation & Signal Identification](./identify_signals.md)
+    - [Combine Signals Into Strategies](./strategies.md)
+    - [Initial Feasibility Testing](./feasibility_testing.md)
+    - [Rigorous Testing & Validation](./rigorous_test.md)
+    - [Incubation](./incubation.md)
+    - [Strategy Framework Integration](./Strategy_Framework.md)
+    - [Money Management](./Money_Management.md)
+    - [Portfolio Management](./Portfolio_Management.md)
+    - [Strategy_Categories](./strategy_types.md)
+
+---
+
 # Kevin Davey's Strategy Factory Overview
 
 Kevin Davy's Strategy Factory approach is a systematic, step-by-step procedure for creating, testing, and trading robust algorithmic trading strategies, with the ultimate objective of building a diversified “factory” of strategies to trade live.

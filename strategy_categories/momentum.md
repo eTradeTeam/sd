@@ -1,4 +1,17 @@
-# Momentum Strategy Overview
+## Strategy Category TOC
+
+- [**Strategy Development Main**](../README.md)
+  - [Strategy Categories](README.md)
+    - [Trend Following](trend_following.md)
+    - [Mean Reversion](mean_reversion.md)
+    - [Momentum](momentum.md)
+    - [Breakout](breakout.md)
+    - [Machine Learning-Driven](ML.md)
+    - [Market Sentiment](market_sentiment.md)
+
+---
+
+# **Momentum Strategies Overview**
 
 ## Details
 

@@ -1,20 +1,21 @@
-# High Risk Reward Strategies
-
-- [Main README](../README.md)
-
 ## Metrics TOC
 
-- [Strategy Metric](strategy_metrics.md)
-- [Sharpe Ratio](sharpe_ratios.md)
-- [Profit Factor](profit_factor.md)
-- [Win Rate](win_rate.md)
-- [Max Drawdown](max_drawdown.md)
-- [Risk-Reward Ratio](risk_reward_ratio.md)
-- [Return on Investment (ROI)](roi.md)
-- [Calmar Ratio](calmar_ratio.md)
-- [Sortino Ratio](sortino_ratio.md)
-- [Consistency](consistency.md)
-- [Alpha](alpha.md)
+- [**Strategy Development Main**](../README.md)
+  - [Strategy Metrics](README.md)
+    - [Sharpe Ratio](sharpe_ratios.md)
+    - [Profit Factor](profit_factor.md)
+    - [Win Rate](win_rate.md)
+    - [Max Drawdown](max_drawdown.md)
+    - [Risk-Reward Ratio](risk_reward_ratio.md)
+    - [Return on Investment (ROI)](roi.md)
+    - [Calmar Ratio](calmar_ratio.md)
+    - [Sortino Ratio](sortino_ratio.md)
+    - [Consistency](consistency.md)
+    - [Alpha](alpha.md)
+
+---
+
+# High Risk Reward Strategies
 
 ## Metric Highlights
 

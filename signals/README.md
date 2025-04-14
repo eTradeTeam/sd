@@ -1,8 +1,14 @@
+## Signals TOC
+
+- [**Strategy Development Main**](../README.md)
+  - [Signals](README.md)
+    - [Signal Library](signal_library.md)
+
+---
+
 # Signals Directory Overview
 
-:arrow_forward: 
-
-<mark>IMPORTANT: This section is a concept draft.  Please review and discuss this section for improvements.</mark>
+:arrow_forward: <mark>IMPORTANT: This section is a concept draft.  Please review and discuss this section for improvements.</mark>
 
 The **Signals** directory is a dedicated space for storing all research, documentation, and analysis related to identifying and developing potential trading signals. This is where our team captures every idea—from initial observations to quantitative validations—that could lead to a robust trading strategy. The documents in this directory provide a structured approach to signal discovery, tracking, and evaluation.
 

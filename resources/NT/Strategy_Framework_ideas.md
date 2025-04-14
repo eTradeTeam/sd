@@ -1,14 +1,4 @@
 
-
-
-##### You said:
-
-provide pseudocode for provide pseudocode for a trading strategy framework. what are important components of a framework
-
-###### ChatGPT said:
-
-Creating a trading strategy framework involves defining the components and logic that will guide the trading process. Here's a pseudocode outline for a general trading strategy framework, highlighting the essential components:
-
 ### Pseudocode for a Trading Strategy Framework
 
 1. Initialize Strategy

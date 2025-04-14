@@ -1,3 +1,20 @@
+## **Table of Contents:**
+
+- [**Strategy Development Main**](../README.md)
+  - [Strategy_Factory Process](./strategy_factory.md)
+  - [**Our Process**](./README.md)
+    - [Idea Generation & Signal Identification](./identify_signals.md)
+    - [Combine Signals Into Strategies](./strategies.md)
+    - [Initial Feasibility Testing](./feasibility_testing.md)
+    - [Rigorous Testing & Validation](./rigorous_test.md)
+    - [Incubation](./incubation.md)
+    - [Strategy Framework Integration](./Strategy_Framework.md)
+    - [Money Management](./Money_Management.md)
+    - [Portfolio Management](./Portfolio_Management.md)
+    - [Strategy_Categories](./strategy_types.md)
+
+---
+
 # Feasibility Testing
 
 This document outlines how we **quickly assess** whether a new strategy idea or signal combination has potential before investing time in rigorous testing and development. The goal is to **screen out weak ideas early**, so we can focus on those that show at least a preliminary edge.

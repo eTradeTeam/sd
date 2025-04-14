@@ -1,3 +1,20 @@
+## **Table of Contents:**
+
+- [**Strategy Development Main**](../README.md)
+  - [Strategy_Factory Process](./strategy_factory.md)
+  - [**Our Process**](./README.md)
+    - [Idea Generation & Signal Identification](./identify_signals.md)
+    - [Combine Signals Into Strategies](./strategies.md)
+    - [Initial Feasibility Testing](./feasibility_testing.md)
+    - [Rigorous Testing & Validation](./rigorous_test.md)
+    - [Incubation](./incubation.md)
+    - [Strategy Framework Integration](./Strategy_Framework.md)
+    - [Money Management](./Money_Management.md)
+    - [Portfolio Management](./Portfolio_Management.md)
+    - [Strategy_Categories](./strategy_types.md)
+
+---
+
 # Strategies
 
 This document explains how we **combine signals** into cohesive, testable trading strategies. While each signal can provide an edge in isolation, a well-structured strategy integrates multiple components (entries, exits, filters, money management) to **maximize robustness** and adapt to varying market conditions.
@@ -69,8 +86,9 @@ A strategy typically maps to a **specific category** (Trend Following, Mean Reve
 ## 4. Coding & Integration
 
 1. **Strategy Framework**  
-   - All strategies should integrate with our shared [Strategy_Framework.md](./Strategy_Framework.md) for consistency.  
-   - This ensures entries, exits, and money management rules are **modular** and maintainable.
+   - All strategies may benefit from being integrated with our shared [Strategy_Framework.md](./Strategy_Framework.md) for consistency.  
+   - This ensures entries, exits, and money management rules are **modular** and maintainable.  
+   - <mark>Note:</mark>: The strategy framework is one of the areas for collaboartive development.  As of May 2025, it does not yet exist.
 
 2. **Platform-Specific Implementation**  
    - **TradeStation EasyLanguage**: Typically one `.eld` or `.els` file per strategy.  

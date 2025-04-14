@@ -1,12 +1,22 @@
 # Algorithmic Strategy Development
 
-Welcome to the **Algorithmic Strategy Development** repository. This project aims to provide a structured process and clear documentation for designing, implementing, and testing automated trading strategies suitable for retail traders on platforms like TradeStation, MultiCharts, or NinjaTrader.
+## Welcome to Our Proprietary Trading Team
+
+We are a **collective of passionate traders, quantitative researchers, and technologists**, all **students of Kevin Davey’s Strategy Factory course**, working together to **innovate and refine algorithmic trading strategies**. Our approach is fully collaborative—**every aspect of strategy development** is a team effort, and the resulting strategies are made available to all members. This structure allows each participant to **apply their core strengths**—from chart analysis to advanced coding—so that we collectively enhance our trading edge in today’s dynamic markets.
+
+## How we work together
+
+The objective of our collaborative effort is to systematically organize and divide the strategy development space, allowing us to complement rather than duplicate each other's work. This enables you to focus deeply on specific problems—such as developing Trend Following strategies or refining Money Management methods—with confidence that other team members are concurrently addressing different aspects of the overall strategy space. By clearly defining areas of responsibility and expertise, each team member's efforts are significantly amplified, leading to more efficient progress and higher-quality outcomes.
+
+## Strategy Development Repository
+This is the **Algorithmic Strategy Development** repository. This project aims to provide a structured process and clear documentation for designing, implementing, and testing automated trading strategies suitable for retail traders on platforms like TradeStation, MultiCharts, or NinjaTrader.
 
 ## Getting Started
 
  - [Table of Contents](TOC.md): Navingation Page
+ - Review the documents in the [Team](team/README.md) directory to get an understanding of **how we work together**.
  - Review the [Onboarding](team/onboarding_guide.md): Includes overview of tools the team uses.
- - Take a look at the [Strategy Process](process) Documents
+ - Take a look at the [Strategy Process](process/README.md) Documents
  
 ## Overview
 
@@ -29,17 +39,19 @@ For details on specific **strategy categories** (e.g., Trend Following, Mean Rev
  - [Strategy Development Process](process/README.md): The Strategy Factory Process & our collaborative development process
  - [Resources](resources/README.md): Links to resources such as spreadsheets, strategy ideas, etc
  - [Signals](signals/README.md): Collated list of Signals
- - [Strategy Types](strategy_categories/README.md)
+ - [Strategy Types](strategy_categories/README.md):  Strategies are divided into categories.  Each category has a different approach to developing successful strategies.
  - [Team](team/README.md): How do we work as a team.  How can you best utilize your skills.
  - [Tools](tools/README.md): Tools use along with documentation or instructions
  - [Generative AI](genai/README.md): Guidance, prompts, 
  - [Metrics](metrics/README.md): How do we measure strategy success
 
 Other directories:
- - [imgs](imgs): 
- - [docs](docs): 
+ - [imgs](imgs): images included in the documentation
+ - [docs](docs): documents shared
 
 ### Other Repositories
+
+Much of the team work is divided into a number of other repositories.  This strategy development repository describes the overall process.  However, research and development of strategies and core capabilities is divided into a number of additional repositories.
 
 **Core Capabilities**
 

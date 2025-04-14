@@ -144,3 +144,66 @@ Below is an **updated table of contents** incorporating your requested changes, 
   - Within your `our_process.md` or `rigorous_test.md`, you might reference AI usage found in the `genai` folder, guiding team members to see how AI can assist at each stage.
 
 By adopting this updated ToC, your **strategy_development** repository will be well-organized, with **clear delineation** of responsibilities, processes, and the new generative AI component. This ensures every contributor knows where to find resources, how to add content, and how to properly experiment with AI while maintaining robust trading strategy development practices.
+
+
+
+
+
+
+
+Here's a complete and structured `TOC.md` master Table of Contents file for the `strategy_development` GitHub repository, listing all the available files along with concise descriptions for each.  
+
+---
+
+# Master Table of Contents
+
+## 📌 Introduction
+- [**Introduction**](introduction.md): Overview of our proprietary trading team, collaborative ethos, mission, and team workflow in algorithmic strategy development.
+
+## 🛠 Strategy Factory Methodology
+- [**Strategy Factory Overview**](strategy_factory.md): A detailed breakdown of Kevin Davey's structured, systematic process for developing and testing robust algorithmic trading strategies.
+
+## 📈 Algorithmic Trading Strategies
+- [**Strategy Types**](strategy_types.md): Descriptions of the main algorithmic trading strategy categories, including Trend Following, Mean Reversion, Momentum, and advanced strategies like Machine Learning.
+
+### Strategy Categories:
+- [**Trend Following**](strategy_types.md#trend-following): Capturing sustained price trends using indicators like moving averages.
+- [**Mean Reversion**](strategy_types.md#mean-reversion): Trading strategies based on prices reverting to an average or equilibrium.
+- [**Momentum**](strategy_types.md#momentum): Buying strong performers and selling weak ones based on recent relative performance.
+- [**Breakout**](strategy_types.md#breakout): Trading price moves that break established support/resistance boundaries.
+- [**Machine Learning–Driven**](strategy_types.md#ml): Applying ML and AI to identify subtle market patterns and relationships.
+- [**Market Sentiment**](strategy_types.md#sentiment): Using crowd psychology indicators to exploit emotional market extremes.
+- [**Volatility Targeting**](strategy_types.md#volatility): Adjusting trades and position sizing dynamically based on market volatility.
+- [**Pairs Trading (Statistical Arbitrage)**](strategy_types.md#pairs): Trading correlated instruments that historically converge/diverge.
+- [**Seasonality / Calendar Effects**](strategy_types.md#calendar): Exploiting recurring market patterns tied to specific calendar periods.
+- [**Scalping**](strategy_types.md#scalping): Rapid trading strategy aiming to profit from very short-term price movements.
+
+### Additional Considerations:
+- [**Strategy Considerations & Implementation Feasibility**](strategy_types.md#considerations): Guidance on strategy complexity, recommended skill levels, and implementation on retail platforms.
+
+---
+
+This structured master Table of Contents allows easy navigation and understanding of the repository's content, ensuring all members can readily locate the information and files relevant to their trading and development activities.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

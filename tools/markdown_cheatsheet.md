@@ -1,12 +1,13 @@
 ## Tools Directory Structure
 
-- [tools.md](./tools.md)
-- [github.md](./github.md)
-- [markdown_cheatsheet.md](./markdown_cheatsheet.md)
-- [vs_code.md](./vs_code.md)
-- [communication_links.md](./communication_links.md) *(Optional)*
-- [platform_integrations.md](./platform_integrations.md) *(Optional)*
-- [additional_resources.md](./additional_resources.md) *(Optional)*
+- [**Strategy Development Main**](../README.md)
+  - [Tools Main](./tools.md)
+    - [Github](./github.md)
+    - [Markdown Cheatsheet](./markdown_cheatsheet.md)
+    - [VS Code](./vs_code.md)
+    - [Communication](./communication.md)
+    - [Platform Integrations](./platform_integrations.md)
+    - [Additional Resources](./additional_resources.md)
 
 ---
 
@@ -304,6 +305,21 @@ Also see these emoji cheatsheets:
 - [GitHub Emoji Cheat Sheet (Rxaviers)](https://gist.github.com/rxaviers/7360908)
 - [Emoji Cheat Sheet by WebpageFX](https://www.webpagefx.com/tools/emoji-cheat-sheet/)
 
+#### 11.4.1 Emoji Cut & Paste Icons
+
+Cut and paste these icons into your markdown file.
+
+ - ✅
+ - 👉
+ - 🚩
+ - 🏆
+ - 🖥️
+ - ⚡
+ - 🛠️
+ - 🚨
+ - 📌
+ - ⚙️
+ - 
 
 ### 11.5 Syntax Highlighting for Code Blocks
 
@@ -357,3 +373,5 @@ GitHub Flavored Markdown supports inline HTML for more advanced formatting:
 ---
 
 **Enjoy writing in Markdown!** This syntax helps keep your `.md` files organized, legible, and version-controlled—all essential for effective collaboration on GitHub.
+
+

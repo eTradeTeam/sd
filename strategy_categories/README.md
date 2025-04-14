@@ -1,22 +1,74 @@
+
+## Strategy Category TOC
+
+- [**Strategy Development Main**](../README.md)
+  - [Strategy Categories](README.md)
+    - [Trend Following](trend_following.md)
+    - [Mean Reversion](mean_reversion.md)
+    - [Momentum](momentum.md)
+    - [Breakout](breakout.md)
+    - [Machine Learning-Driven](ML.md)
+    - [Market Sentiment](market_sentiment.md)
+
+---
+
 # Trading Strategy Categories
 
-## Comprehensive Trading Strategy Categories  
+## 📈 Core Strategy Categories
+
+- [**Trend Following**](trend_following.md)  
+  Strategies designed to capture sustained price movements using indicators like moving averages or channel breakouts.
+
+- [**Mean Reversion**](mean_reversion.md)  
+  Approaches based on the hypothesis that prices periodically revert to an average or equilibrium state.
+
+- [**Momentum**](momentum.md)  
+  Trading systems that buy assets exhibiting strong recent performance, expecting continued short-term outperformance.
+
+- [**Breakout**](breakout.md)  
+  Strategies entering positions when price moves beyond defined support/resistance levels, anticipating directional continuation.
+
+- [**Machine Learning–Driven**](machine_learning.md)  
+  Advanced methods using ML/AI models to uncover subtle patterns and relationships in market data.
+
+- [**Market Sentiment**](market_sentiment.md)  
+  Techniques exploiting extremes in investor sentiment, tracked through indicators like surveys or put/call ratios.
+
+- [**Volatility Targeting - TBD**](volatility_targeting.md)  
+  Systems adjusting position sizes and trade parameters dynamically based on current market volatility.
+
+- [**Pairs Trading (Statistical Arbitrage) - TBD**](pairs_trading.md)  
+  Strategies exploiting temporary divergences between correlated instruments by simultaneously trading paired positions.
+
+- [**Seasonality / Calendar Effects - TBD**](seasonality_calendar_effects.md)  
+  Trading rules based on recurring, predictable market behaviors tied to calendar cycles or seasonal factors.
+
+- [**Scalping - TBD**](scalping.md)  
+  High-frequency approaches aimed at capturing small price moves repeatedly, suitable for very short-term timeframes.
+
+
+# Comprehensive Trading Strategy Categories  
+
+## Best Strategies for Retail Traders ($100k Account)
 1. **Trend Following**  
 2. **Mean Reversion**  
 3. **Momentum**  
 4. **Breakout**  
-5. **Statistical Arbitrage**  
-6. **Volatility Targeting**  
-7. **Machine Learning-Driven**  
-8. **Market Sentiment**  
-9. **Pairs Trading**  
-10. **Market Making**  
-11. **Carry Trades**  
-12. **Event-Driven**  
-13. **Global Macro Quant**  
-14. **High-Frequency Trading (HFT)**  
-15. **Scalping**  
-16. **Seasonality/Calendar Effects**  
+5. **Volatility Targeting**  
+6. **Machine Learning-Driven**  
+7. **Market Sentiment (Lite)**  
+8. **Pairs Trading**  
+9. **Seasonality/Calendar Effects**  
+10. **Scalping**  
+
+## Strategies Best Suited for Large Firms
+11. **High-Frequency Trading (HFT)**  
+12. **Statistical Arbitrage**  
+13. **Market Making**  
+14. **Global Macro Quant** 
+15. **Event-Driven (Microsecond)**
+16. **Machine Learning (Advanced)**
+17. **Carry Trades**  
 
 Some of these Categores are appropriate for a ***retail trader*** using Tradestation, Multicharts, Ninjatrader or other.  Others are more suited for the ***institutional trader.***
 
@@ -33,6 +85,7 @@ Some of these Categores are appropriate for a ***retail trader*** using Tradesta
 **Core Hypothesis**: Trends persist due to *behavioral biases* (herding, confirmation bias) and institutional capital flows.  
 **Ideal Conditions**: High momentum, low mean-reversion pressure.  
 **Securities**: Futures (ES, NQ), ETFs (SPY, QQQ), Forex (EUR/USD).  
+**For More Detail see:** []()
 
 ---
 
@@ -43,6 +96,7 @@ Some of these Categores are appropriate for a ***retail trader*** using Tradesta
 **Core Hypothesis**: Extreme price moves overcorrect due to *overreaction* (noise traders, panic selling).  
 **Ideal Conditions**: Low volatility, stable macro regimes.  
 **Securities**: ETFs (XLF, XLU), stocks (high-beta sectors), commodities (gold).  
+**For More Detail see:** []()
 
 ---
 
@@ -53,6 +107,7 @@ Some of these Categores are appropriate for a ***retail trader*** using Tradesta
 **Core Hypothesis**: *Investor herding* and delayed information diffusion sustain momentum.  
 **Ideal Conditions**: Stable volatility, earnings-driven price action.  
 **Securities**: Small-cap stocks, sector ETFs (XLK, XLV), futures (CL, GC).  
+**For More Detail see:** []()
 
 ---
 
@@ -63,6 +118,7 @@ Some of these Categores are appropriate for a ***retail trader*** using Tradesta
 **Core Hypothesis**: Breakouts signal *institutional participation* (volume confirms new buyers/sellers).  
 **Ideal Conditions**: High volume, low overnight gaps.  
 **Securities**: Futures (YM, RTY), stocks (post-earnings breakouts), Forex (GBP/JPY).  
+**For More Detail see:** []()
 
 ---
 
@@ -150,53 +206,6 @@ Some of these Categores are appropriate for a ***retail trader*** using Tradesta
 4. **Risk Limits**: 1-2% per trade, max 5% daily drawdown.  
 
 This framework prioritizes strategies with *asymmetric payoffs* (e.g., trend following’s “fat tails”) and avoids overfitting via regime-agnostic principles. For a $100k account, combine **trend + volatility targeting** (core) with **pairs trading + seasonality** (satellite).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ---
 
